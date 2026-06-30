@@ -1,0 +1,50 @@
+const products = [
+  // Страница 1
+  { id: 1, page: 1, name: "Печенье «Восточное» фасованное", weight: "500 гр", price: 665, image: "img/vostochnoe_500.jpg" },
+  { id: 2, page: 1, name: "Печенье «Восточное» весовое", weight: "4 кг", price: 4030, image: "img/vostochnoe_4kg.jpg" },
+  { id: 3, page: 1, name: "Печенье «Шоколадное» фасованное", weight: "500 гр", price: 735, image: "img/shokoladnoe_500.jpg" },
+  { id: 4, page: 1, name: "Печенье «Шоколадное» весовое", weight: "4 кг", price: 5460, image: "img/shokoladnoe_4kg.jpg" },
+
+  // Страница 3
+  { id: 5, page: 3, name: "Печенье «Любимое с темным шоколадом» фасованное", weight: "460 гр", price: 1040, image: "img/lyubimoe_dark.jpg" },
+  { id: 6, page: 3, name: "Печенье «Любимое с белым шоколадом» фасованное", weight: "460 гр", price: 1040, image: "img/lyubimoe_white.jpg" },
+
+  // Страница 4
+  { id: 7, page: 4, name: "Печенье «Домашнее» фасованное", weight: "500 гр", price: 715, image: "img/domashnee_500.jpg" },
+  { id: 8, page: 4, name: "Печенье «Домашнее» весовое", weight: "5.5 кг", price: 5905, image: "img/domashnee_5kg.jpg" },
+
+  // Страница 5
+  { id: 9, page: 5, name: "Печенье «Домашнее с шоколадом» фасованное", weight: "520 гр", price: 1015, image: "img/domashnee_shoko.jpg" },
+  { id: 10, page: 5, name: "Печенье «Овсяное с шоколадом» весовое", weight: "3 кг", price: 3315, image: "img/ovsyanoe_shoko.jpg" },
+
+  // Страница 6
+  { id: 11, page: 6, name: "Печенье затяжное «Madlen» фасованное", weight: "500 гр", price: 665, image: "img/madlen_500.jpg" },
+  { id: 12, page: 6, name: "Печенье затяжное «Madlen с шоколадной глазурью»", weight: "300 гр", price: 510, image: "img/madlen_glaze.jpg" },
+  { id: 13, page: 6, name: "Печенье затяжное «Madlen» весовое", weight: "3 кг", price: 2965, image: "img/madlen_3kg.jpg" },
+
+  // Страница 7
+  { id: 14, page: 7, name: "Крекер «Сырный» весовой", weight: "2 кг", price: 3250, image: "img/crack_cheese.jpg" },
+
+  // Страницы 8–9
+  { id: 15, page: 8, name: "Десерт «Ziffy» Клубничный", weight: "310 гр", price: 1015, image: "img/ziffy_strawberry.jpg" },
+  { id: 16, page: 8, name: "Десерт «Ziffy» С кокосом", weight: "310 гр", price: 1015, image: "img/ziffy_coconut.jpg" },
+  { id: 17, page: 9, name: "Десерт «Ziffy» Классический", weight: "350 гр", price: 1120, image: "img/ziffy_classic.jpg" },
+  { id: 18, page: 9, name: "Десерт «Ziffy» Классический с кокосом", weight: "380 гр", price: 1185, image: "img/ziffy_classic_coconut.jpg" },
+
+  // Страница 10
+  { id: 19, page: 10, name: "Печенье-сэндвич «Caramel Pie» весовое", weight: "1,3 кг", price: 3625, image: "img/caramel_pie.jpg" },
+
+  // Страница 11
+  { id: 20, page: 11, name: "Сэндвич «Choco Loco» с маршмеллоу, коробка", weight: "8 шт", price: 800, image: "img/choco_loco_8.jpg" },
+  { id: 21, page: 11, name: "Сэндвич «Choco Loco» с маршмеллоу, коробка", weight: "12 шт", price: 1200, image: "img/choco_loco_12.jpg" },
+  { id: 22, page: 11, name: "Сэндвич «Choco Loco» шоубокс", weight: "22 шт по 30 гр", price: 2005, image: "img/choco_loco_showbox.jpg" },
+
+  // Страницы 12–13
+  { id: 23, page: 12, name: "Чак-чак «Медовый» шоубокс", weight: "20 шт по 28 гр", price: 2340, image: "img/chak_chak_showbox.jpg" },
+
+  // Страницы 15–17 (Мультизлаковые конфеты «OKAY» по 400г)
+  { id: 24, page: 15, name: "Конфеты «OKAY» с темной глазурью и воздушным рисом", weight: "400 гр", price: 1250, image: "img/okay_dark_1.jpg" },
+  { id: 25, page: 15, name: "Конфеты «OKAY» с белой глазурью и воздушным рисом", weight: "400 гр", price: 1250, image: "img/okay_white_1.jpg" },
+  { id: 26, page: 16, name: "Конфеты «OKAY» с темной глазурью и воздушным рисом", weight: "400 гр", price: 1250, image: "img/okay_dark_2.jpg" },
+  { id: 27, page: 16, name: "Конфеты «OKAY» с белой глазурью и воздушным рисом", weight: "400 гр", price: 1250, image: "img/okay_white_2.jpg" }
+];
